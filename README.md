@@ -44,3 +44,20 @@
 `**Conlusion Question:**` Which one is best annotations based or java based configuration?
 
 ---
+
+## Spring Boot - Runners
+1. What is A runner and why do we need it?
+2. What are the types of Runners in Spring Boot?
+3. What is the difference between Command Line and Application Runners?
+4. Can we define multiple runners in one application?If yes , then want will be the order?
+5. Can we define our own order of execution for Runners?
+6. Which priority is higher in @Order annotations low value(1,-1,0) or high values(10 , 12 ,100)?
+7. What will happen if the runner has no @Order?
+---
+## Component Scanning
+1. What is a component scanning and what it does?
+2. What is the base package in Component Scanning?
+3. What is the default base package by Spring Boot?
+4. Can we change basepackage by using @ComponentScan Annotations?If yes , then want how?
+5. Can we provide multiple package name for Component Scanning?If yes then how?
+6. Who will provide @ComponentScan in Spring Boot?
