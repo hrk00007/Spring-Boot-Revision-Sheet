@@ -61,3 +61,34 @@
 4. Can we change basepackage by using @ComponentScan Annotations?If yes , then want how?
 5. Can we provide multiple package name for Component Scanning?If yes then how?
 6. Who will provide @ComponentScan in Spring Boot?
+---   
+## Properties Files
+1. What is properties mean?
+2. Does properties files are case sensitive?
+3. What will happen if you repeat the same key with different values?
+4. How properties files loaded in **Spring**?
+5. How properties files loaded in **Spring Boot**?
+6. What does classpath means in Spring/Spring Boot?
+7. How to Read Data from .properties file?
+### @Value annotations 
+1. What is @Value Annotations and how it works?
+2.  Answer the below Cases?
+    - Case 1: same key with different values
+    - Case 2: given key in @Value is not present
+    - Case 3:  Wrong data type 
+    - Case 4: Syntax Error in @Value in int and String
+      - Syntax error with int
+      - Syntax error with String
+ ### @ConfigurationProperties annotations 
+ 1. What is @ConfigurationProperties Annotations and how it works?
+2. What is prefix in @ConfigurationProperties?
+3. What will happen if we don't have a prefix in @ConfigurationProperties?
+4. Rules for defining key-val in @ConfigurationProperties? 
+5. Working of @ConfigurationProperties?  
+6. What is the difference between @Value and @ConfigurationProperties?
+7. @ConfigurationProperties with
+   -  Primitives
+   -  List/Set/Array [1D collection]
+   -  Map/Properties [2D Collection]
+   -  Association Mapping (HAS-A with class)
+####  Primitives  
