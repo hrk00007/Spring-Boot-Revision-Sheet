@@ -92,3 +92,25 @@
    -  Map/Properties [2D Collection]
    -  Association Mapping (HAS-A with class)
 ####  Primitives  
+1. What is the Syntax of primitives in application.properties with prefix?
+2. How to Fetch those properties{key=val} into class primitive variables? 
+3. Does configurationproperties uses Getter/Setter methods?
+####  List/Set/Array [1D collection]
+1. What is the Syntax of List/Set/Array  in application.properties with prefix?
+2. What is the Shorthand of List/Set/Array in application.properties>
+3. Who has more priority shortand or normal syntax?
+####  Working with Map/Properties [2D Collection]
+1. What is the Syntax of Map/Properties in application.properties with prefix?
+   
+### OTHER IMP QUESTION on properties files
+1. Can we Load other properties file in Spring Boot?
+2. If we rename application.properties to abcd.properties in Spring Boot then how to  provide that properties file manually?
+3. Can we Load multiple external.properties files in spring Boot?    
+4. If we have same key in multiple properties file then which one is taken by Spring boot?
+5. What is the relation between @PropertySource and @Value, @ConfigurationProperties?
+6. Can we Load .properties from external location[outside classpath]?
+   -  Case 1 [Load .properties file from project location(outside src folder and inside project project folder)]
+   -  Case 2 [Load .properties file from outside location(outside project folder or any hard disk location )]
+7. How can we load a properties file from outside of classpath(src/main/resource) folder?
+   - External Location: F Drive Or D Drive
+   - Inside Folder Location: 
