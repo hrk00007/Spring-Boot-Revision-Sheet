@@ -114,3 +114,35 @@
 7. How can we load a properties file from outside of classpath(src/main/resource) folder?
    - External Location: F Drive Or D Drive
    - Inside Folder Location: 
+  
+  ---
+  ### Lombok API With Spring Boot
+  1. What is Lombok API?Why we need it?
+  2. What are the difference types of annotations provided by Lombok?
+  3. How the code is generated using Annotations? 
+  4. What is the role of @Getter,@Setter,@ToString and @EqualsAndHashCode?
+  5. What is @NoArgsConstructor?
+  6. What is @AllArgsConstructor?
+  7. What is @RequiredArgsConstructor?
+  8. What is the @NonNull annotation?
+  9.  What is the difference between @NoArgsConstructor and @AllArgsConstructor and @RequiredArgsConstructor?
+  10. What is @Data Annotations in Lombok?
+  #### Cases of Constructors Annotations 
+  Case 1:
+
+  Case 2:
+
+  Case 3:
+
+  Case 4:
+
+  Case 5:
+
+  Case 6:
+
+  Case 7:
+  
+  Case 8:
+
+---
+
