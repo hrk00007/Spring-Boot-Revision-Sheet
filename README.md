@@ -126,23 +126,144 @@
   7. What is @RequiredArgsConstructor?
   8. What is the @NonNull annotation?
   9.  What is the difference between @NoArgsConstructor and @AllArgsConstructor and @RequiredArgsConstructor?
-  10. What is @Data Annotations in Lombok?
+
   #### Cases of Constructors Annotations 
+  Convert these below written code into lombok generated code
+
   Case 1:
+  ```java
+@RequiredArgsConstructor
+public class Product {
+    private Integer pid;
+    private String  pcode;
+}
+  ```
 
   Case 2:
+```java
+@NoArgsConstructor         
+@RequiredArgsConstructor   
+public class Product {
+	@NonNull
+    private Integer pid;
+    private String  pcode;
+}
+  ```
 
   Case 3:
+```java
+@NoArgsConstructor        
+@RequiredArgsConstructor   
+@AllArgsConstructor        
+public class Product {
+	@NonNull
+    private Integer pid;
+    private String  pcode;
+}  
+```
 
   Case 4:
-
+```java
+@NoArgsConstructor         
+@RequiredArgsConstructor   
+public class Product {
+	private Integer pid;
+    private String  pcode;
+}  
+```
   Case 5:
-
+```java
+@AllArgsConstructor         
+@NoArgsConstructor         
+public class Product {
+		
+}  
+```
   Case 6:
+```java
 
-  Case 7:
+@AllArgsConstructor        
+ @NoArgsConstructor         
+@RequiredArgsConstructor   
+public class Product {
+		
+}
   
+```
+  Case 7:
+```java
+@AllArgsConstructor         
+@RequiredArgsConstructor   
+public class Product {
+   private Integer pid;
+}
+  
+```  
   Case 8:
+```java
+@NoArgsConstructor         
+@RequiredArgsConstructor   
+
+public class Product {
+}  
+```
+
+10. What is @Data Annotations in Lombok?
+ 
+ #### Cases of @Data Annotations   
+case 1
+
+
+ ```java
+@Data
+public class Product{
+@NonNull
+private Integer pid;
+} 
+ ```
+
+ case 2
+ ```java
+ @Data
+public class Product{
+@NonNull
+private Integer pid;
+}
+ ```
+ case 3
+ ```java
+@Data
+@NoArgsConstructor
+public class Product{
+@NonNull
+private Integer pid;
+}
+ ```
+ case 4
+ ```java
+@Data
+@AllArgsConstructor
+public class Product{
+@NonNull
+private Integer pid;
+}
+ ```
+case 5
+```java
+@Data
+@NoArgsConstructor
+@RequiredArgsConstructor 
+@AllArgsConstructor
+public class Product{
+@NonNull
+private Integer pid;
+private String code;
+private Doubt amt;
+
+}
+``` 
+
+11. How many constructor can be generated using Lombok?
 
 ---
 
