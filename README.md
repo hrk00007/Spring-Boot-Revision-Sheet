@@ -10,7 +10,7 @@
 7. What is Starter class OR Bootstrap class?
 8. What is application.properties?
 9. What is alternative of application.properties?
-10.What are the build information files in Starter Project?Types of build information files?
+10. What are the build information files in Starter Project?Types of build information files?
 11. What are the uses of build information files?
 12. What inside of pom.xml(MAVEN)?
 ---
@@ -266,4 +266,44 @@ private Doubt amt;
 11. How many constructor can be generated using Lombok?
 
 ---
+### Yaml file
+1. What is Yaml file or .yml file?
+2. Why we need .yml file when we already have application.properties?
+3. What is the syntax of .yml file?
+4. What is SnakeYaml API?
+5. How Yaml works internally in spring boot?
+6. Convert below cases into application.properties into application.yml.
 
+- Exercise 1
+  
+   ```java
+   spring.ctx.code=NIT
+   spring.ctx.type=ACTIVE
+   spring.ds.model=ONE
+   spring.ds.grade=A
+   ```
+- Exercise 2
+  
+   ```java
+   my.app.subject[0]=ENG
+   my.app.subject[1]=MATH
+   my.app.subject[2]=SCI
+   ```
+
+- Exercise 3
+  
+   ```java
+   code.model.status=ONE
+   spring.ds.grade=A
+   spring.ctx.service=TWO
+   code.model.format=TEN
+   spring.ctx.flte=active
+   spring.ds.mode=none
+   ```
+
+#### YAML with [Primitive,1D & 2D collection,HAS-A(Assoication)]
+7. Write the syntax and example for primitive variables in YAML?
+8. Write the syntax and example for 1D collection(List/Set/Array) in YAML?
+9. Write the syntax and example for 2D collection(Map/Properties) in YAML?
+10. Write the syntax and example for  HAS-A (Association Mapping) in YAML?  
+11. Write a code for implementing all above types?
