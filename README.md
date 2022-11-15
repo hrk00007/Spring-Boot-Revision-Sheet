@@ -307,3 +307,14 @@ private Doubt amt;
 9. Write the syntax and example for 2D collection(Map/Properties) in YAML?
 10. Write the syntax and example for  HAS-A (Association Mapping) in YAML?  
 11. Write a code for implementing all above types?
+---
+### Command Line Arguments
+1. What is command line arguments?
+2. Write a syntax for code command line arguments in cmd?
+3. How can we write main() method args using STS/ECLIPSE/INTELIJJ?
+4. Does command line runner get's method argument or not?
+5. Types of Command Line Arguments?
+6. What is `Option arguments` and `Non-Option Arguments` and difference between them?
+7. What is Option Arguments? What is the use of it?
+8. What is Non-Option Arguments? What is the use of it?
+9. Where are option arguments and non-Option Arguments stored?
