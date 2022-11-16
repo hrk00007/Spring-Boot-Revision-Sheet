@@ -318,3 +318,14 @@ private Doubt amt;
 7. What is Option Arguments? What is the use of it?
 8. What is Non-Option Arguments? What is the use of it?
 9. Where are option arguments and non-Option Arguments stored?
+---
+
+### Spring Boot Profiles
+
+1. What is Profile concepts and why do we need them?
+2. What are two ways we can use profile concepts?
+3. What is the syntax and Naming rule of the profiles using application.properties?
+4. How to active profile at runtime?
+5. What is Profiles Fallback in Spring Boot?
+
+
