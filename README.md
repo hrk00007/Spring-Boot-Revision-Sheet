@@ -327,5 +327,13 @@ private Doubt amt;
 3. What is the syntax and Naming rule of the profiles using application.properties?
 4. How to active profile at runtime?
 5. What is Profiles Fallback in Spring Boot?
-
+6. What is @Profile Annotations and what is the use of it?
+7. What is the Problem with @Qualifer and why we need profile?
+8. Write a sample code using @Profile annotations?
+9. Write a sample code using @Profile with different application.properties?
+10. How to use Profiles using YAML files?
+11. What is Child Profile and why do we need it?
+12. What is the Syntax of Child Profiles? 
+   
+---
 
