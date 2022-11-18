@@ -337,3 +337,26 @@ private Doubt amt;
    
 ---
 
+### Spring Data using JPA with Spring Boot
+1. What are the types of databases?
+2. Does Spring Data support operations in both of the databases?
+3. Which Api we use for SQL type databases operations?
+4. What is the difference between JDBC, JPA , Hibernate and ORM?
+5. What is `dialect` and why do we need it?
+6. Write the syntax of Oracle,MySQL dialect in application.properties?
+7. What is `show-sql` property do?
+8. What is `ddl-auto` property do? Explain the variou values for it?
+9. What is the default value for `ddl-auto`?
+10. What is Embedded Database? What is the use of it?
+11. Give one example of Embedded Database?
+12. Where is the data of Embedded Database stored?
+13. What does @Entity annotation and where do we apply it?
+14. What does @Id annotation and where do we apply it?
+15. What does @Table annotation and where do we apply it?
+16. What does @Column annotation and where do we apply it?
+17. What is Repository in Spring Data JPA?
+18. What are the different types of Repository? Explain the difference between them?
+19. Which Design Pattern repositories classes uses internally?
+20. 
+
+   
