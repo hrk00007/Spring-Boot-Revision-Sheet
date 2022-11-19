@@ -357,6 +357,12 @@ private Doubt amt;
 17. What is Repository in Spring Data JPA?
 18. What are the different types of Repository? Explain the difference between them?
 19. Which Design Pattern repositories classes uses internally?
-20. 
-
+20. What is CrudRepository? What is the syntax of CrudRepository?
+21. Explain the CrudRepository interface important methods?
+22. Write a code to connect to external db(oracle|MySQL|PostGres) using CrudRepository?
+23. What is PagingAndSortingRepository? What is the syntax of PagingAndSortingRepository?
+24. What is the difference between PagingAndSortingRepository and CrudRepository?
+25. What are the additonal methods provided by PagingAndSortingRepository?
+26. How to Sorting of Database based on column? Write a sample code for sorting the database output?
+27. How to Sort database with Ascending and Descending order?
    
