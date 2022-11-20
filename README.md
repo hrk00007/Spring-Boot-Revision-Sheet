@@ -337,7 +337,7 @@ private Doubt amt;
    
 ---
 
-### Spring Data using JPA with Spring Boot
+### Spring Data JPA with Spring Boot
 1. What are the types of databases?
 2. Does Spring Data support operations in both of the databases?
 3. Which Api we use for SQL type databases operations?
@@ -365,4 +365,10 @@ private Doubt amt;
 25. What are the additonal methods provided by PagingAndSortingRepository?
 26. How to Sorting of Database based on column? Write a sample code for sorting the database output?
 27. How to Sort database with Ascending and Descending order?
-   
+28. What is Pagination? Why do we need it?
+29. How Pagination Works? OR What is the Pagination Process in data JPA?
+30. Which method we use to provide Pagination?
+31. What is Pageable and Page in PagingAndSortingRepository?
+32. What is the method we can call with the Page object?   
+33. Write a code for pagination using Pageable(Interface)?
+34. Explain this line ```Pageable pageable= PageRequest.of(1,5);``` ?
