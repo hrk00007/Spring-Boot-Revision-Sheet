@@ -372,3 +372,12 @@ private Doubt amt;
 32. What is the method we can call with the Page object?   
 33. Write a code for pagination using Pageable(Interface)?
 34. Explain this line ```Pageable pageable= PageRequest.of(1,5);``` ?
+35. What is JpaRepository? Why do we need it?
+36. What is the difference between `JPARepository` and `PaginationAndSortingRepository`?
+37. What additonal method we get from JPARepository?
+38. Explain this JPA Annotations?
+    - Data and Time Annotations: @Temporal and TemporalType 
+    - LOB(LARGE OBJECT) Annotations:  @lob
+39.  How to use @lob for image and large text file?
+40. Write a code to implement @Temporal and @lob?
+  
