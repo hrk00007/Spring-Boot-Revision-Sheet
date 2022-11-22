@@ -380,4 +380,15 @@ private Doubt amt;
     - LOB(LARGE OBJECT) Annotations:  @lob
 39.  How to use @lob for image and large text file?
 40. Write a code to implement @Temporal and @lob?
-  
+#### Custom Query Methods in JPA
+1. What is Custom Query? Why do we need it?
+2. What are the two ways of writing Custom Query?
+3. What is findBy method in Customer Query? 
+4. Write Syntax for findBy Method?
+5. How to use findBy method for Vaiable Name?
+6. Write findBy Syntax and Example for `SQL: select * from product where prod_vendor=?`   
+7. How to use findBy method for Relational Operators?
+8. Write findBy Syntax and Example for `SQL: select * from product where prod_cost>=?` 
+9. How to use findBy method for IS Null/Not Null Operators?
+10. Write findBy Syntax and Example for `SQL: select * from product where prod_grade is not null?`
+11. Write a code to implement findBy for Variables,Relational and IS/NOT null operators?
