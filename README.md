@@ -392,3 +392,16 @@ private Doubt amt;
 9. How to use findBy method for IS Null/Not Null Operators?
 10. Write findBy Syntax and Example for `SQL: select * from product where prod_grade is not null?`
 11. Write a code to implement findBy for Variables,Relational and IS/NOT null operators?
+12. How to use findBy method for like and not like operators?
+13. Write findBy Syntax and Example for `SQL : select * from emp where ename like '?'` 
+14. Write findBy Syntax and Example for `SQL : select * from emp where ename not like '?'` 
+15. How to use findBy method for StartingWith/EndingWith/Containing Operator?
+16. Write a code to implement findBy for `like, not like ,startingWith , endingWith and containing`?
+17. How to use findBy method for `AND/OR` operators?
+18. Write findBy Syntax and Example for `SQL : select * from emp where prod_name=? AND prod_cost>=?`
+19. Write findBy Syntax and Example for `SQL : select * from emp where prod_name=? OR prod_cost>=?`
+20. How to use findBy method for `Order By` operators?
+21. Write findBy Syntax and Example for `SQL : select * from emp where prod_cost=? order by prod_vendor ASC;`
+22. Write findBy Syntax and Example for `SQL : select * from emp where prod_cost=? order by prod_vendor DESC;`
+23. Write a code to implement findBy for `AND/OR and OrderBy{ASC,DESC}`?
+---
