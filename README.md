@@ -405,3 +405,9 @@ private Doubt amt;
 22. Write findBy Syntax and Example for `SQL : select * from emp where prod_cost=? order by prod_vendor DESC;`
 23. Write a code to implement findBy for `AND/OR and OrderBy{ASC,DESC}`?
 ---
+### Projections using findBy
+1. What is Projections? Why do we need it?
+2. What are the steps to write Projections?
+3. Write down Syntax and Example of projections?
+4. Write a code to implement projections?
+---
