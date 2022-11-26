@@ -411,4 +411,3 @@ private Doubt amt;
 3. Write down Syntax and Example of projections?
 4. Write a code to implement projections?
 ---
-### Custom Query using @Query Annotation
