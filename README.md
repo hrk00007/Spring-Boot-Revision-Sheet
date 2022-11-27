@@ -410,4 +410,4 @@ private Doubt amt;
 2. What are the steps to write Projections?
 3. Write down Syntax and Example of projections?
 4. Write a code to implement projections?
----
+
