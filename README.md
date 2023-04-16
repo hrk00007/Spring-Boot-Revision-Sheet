@@ -412,4 +412,4 @@ private Doubt amt;
 4. Write a code to implement projections?
 ---
 ### Custom Query using @Query Annotation
----
+
